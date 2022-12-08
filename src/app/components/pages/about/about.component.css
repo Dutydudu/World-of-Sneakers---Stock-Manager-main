@@ -1,0 +1,37 @@
+.about-title{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+}
+.about-content{
+    display: flex;
+    /* align-items: center; */
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1200px;
+}
+
+.about-content-text{
+    width: 550px;
+    height: 280px;
+    margin-top: 75px;
+
+    font-size: 18px;
+}
+
+.about-content-text :nth-child(1){
+    padding-bottom: 50px;
+}
+
+.about img{
+    width: 350px;
+    margin-bottom: 25px;
+}
+

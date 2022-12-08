@@ -1,0 +1,19 @@
+{
+    "users": [
+        {
+            "id": "1",
+            "name": "Luis Eduardo",
+            "companyName": "Duarte",
+            "email": "dut.dudu123@hotmail.com",
+            "password": "123456"
+        },
+
+        {
+            "id": "2",
+            "name": "Ronaldo Nazarian",
+            "companyName": "Fenomeno",
+            "email": "ronaldo@hotmail.com",
+            "password": "timao123"
+        }
+    ]
+}

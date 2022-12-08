@@ -1,0 +1,24 @@
+<div class="content-account">
+    <div class="box-content">
+        <div class="text-box">
+            <h2>Login</h2>
+
+            <p>Ainda nao possui cadastro? Faça o seu <a [routerLink]="['/account']">Aqui</a></p>
+        </div>
+
+        <div class="content-row">
+            <div class="form-account">
+                <form [formGroup]="loginForm" (ngSubmit)="submit()">
+                    <div class="form-group">
+                        <input type="email" required placeholder="Email" formControlName="email">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" required placeholder="Senha" formControlName="password">
+                    </div>
+                    <button class="btnForm" type="submit" [disabled]="!loginForm.valid">Entrar</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</div>

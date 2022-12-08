@@ -1,0 +1,42 @@
+<div class="content-catalog">
+  <div class="options">
+      <div class="btnCatalog">
+          <button [routerLink]="['/consult-catalog']">Consultar Calçados</button>
+      </div>
+      <div class="btnCatalog">
+          <button [routerLink]="['/insert-catalog']">Inserir Calçados</button>
+      </div>
+      <div class="btnCatalog">
+          <button button [routerLink]="['/delete-catalog']">Excluir Calçados</button>
+      </div>
+  </div>
+</div>
+
+<div class="catalog">
+  <h3>Inserir Calçados</h3>
+  <div class="insert">
+    <form #form="ngForm" (ngSubmit)="save(form)">
+  <div>
+    <input required type="text" [(ngModel)]="data.id" name="id" placeholder="Identificador" pInputText>
+  </div>
+  <div>
+    <input required type="text" [(ngModel)]="data.marca" name="marca" placeholder="Marca" pInputText>
+  </div>
+  <div>
+    <input required type="text" [(ngModel)]="data.modelo" name="modelo" placeholder="Modelo" pInputText>
+  </div>
+  <div>
+    <input required type="text" [(ngModel)]="data.categoria" name="categoria" placeholder="Categoria" pInputText>
+  </div>
+  <div>
+    <input required type="text" [(ngModel)]="data.tamanho" name="tamanho" placeholder="Tamanho" pInputText>
+  </div>
+  <div>
+    <input required type="text" [(ngModel)]="data.cor" name="cor" placeholder="Cor" pInputText>
+  </div>
+  <div>
+    <input required type="text" [(ngModel)]="data.preco" name="preco" placeholder="Preço" pInputText>
+  </div>
+  <button class="btn-input" type="submit" label="Inserir">Inserir</button>
+  </form>
+</div>

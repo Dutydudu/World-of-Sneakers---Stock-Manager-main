@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body *{
+    font-family: 'Inter';
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+
+    height: 80px;
+    background: linear-gradient(0deg, rgba(78, 67, 208, 0.2), rgba(78, 67, 208, 0.2)), rgba(76, 82, 173, 0.93);
+}
+
+.header p{
+    margin-left: 25px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    margin-right: 25px;
+}
+
+.menu a{
+    padding: 15px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.menu a:hover{
+    color: #dec129;    
+}
+
+li{
+    list-style: none;
+}
+

@@ -1,0 +1,53 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Cambria;
+}
+
+li{
+    list-style: none;
+}
+
+/*  BUTTON */
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: #dec129;
+
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: linear-gradient(0deg, rgba(78, 67, 208, 0.2), rgba(78, 67, 208, 0.2)), rgba(76, 82, 173, 0.93);
+}
+
+.btn:hover{
+    background-color: #fff;
+    border: 1px solid #dec129;
+} 
+
+/* .form-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+
+.form-group label{
+    font-weight: bold;
+    font-size: .9em;
+    margin-bottom: .4em;
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 0.6em;
+    color: #777;
+    font-size: 0.8em;
+} */

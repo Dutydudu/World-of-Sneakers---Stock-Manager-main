@@ -1,0 +1,33 @@
+<div class="content-account">
+    <div class="box-content">
+        <div class="text-box">
+            <h2>Cadastre-se</h2>
+            <p>Já possui cadastro? Faça o seu <a [routerLink]="['/login']">Login</a></p>
+        </div>
+
+        <div class="content-row">
+            <div class="form-account">
+                <form [formGroup]="accountForm" (ngSubmit)="submit()">
+                    <div class="form-group">
+                        <input type="text" placeholder="Usuário" formControlName="name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Nome da Empresa" formControlName="companyName" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Email" formControlName="email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="password" placeholder="Senha" formControlName="password" required>
+                    </div>
+
+                </form>
+                <button [routerLink]="['/login']" class="btnForm" type="submit" [disabled]="!accountForm.valid">Cadastrar</button>
+            </div>
+            <img id="athlete" src="/assets/images/atleta1.png" alt="atletal de basquete">
+        </div>
+
+    </div>
+</div>
+
+

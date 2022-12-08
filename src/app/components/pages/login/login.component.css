@@ -1,0 +1,99 @@
+.content-account{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+}
+
+.box-content{
+    display: flex;
+    width: 500px;
+    height: 600px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.text-box{
+    position: absolute;
+    height: 100px;
+    width: 400px;
+    padding: 10px;
+    padding-top: 25px;
+    margin: 25px;
+    margin-left: 50px;
+
+    font-size: 18px;
+    color: white;
+}
+
+.text-box h2{
+    color: #AC8EEB;
+}
+
+.text-box p{
+    padding-top: 25px;
+}
+
+.text-box a{
+    text-decoration: none;
+    color: #AC8EEB;
+    /* color: linear-gradient(0deg, rgba(78, 67, 208, 0.2), rgba(78, 67, 208, 0.2)), rgba(76, 82, 173, 0.93); */
+}
+
+.content-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    margin-left: 50px;
+    padding-top: 50px;
+}
+
+.form-account{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+
+    /* background-color: red;
+    border: 1px solid white; */
+}
+
+#athlete{
+    width: 340px;
+}
+
+.form-group input{
+    border-radius: 5px;
+    height: 45px;
+    width: 340px;
+    margin: 15px;
+    padding: 5px;
+
+    font-size: 18px;
+}
+
+.btnForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 370px;
+
+    background-color: #AC8EEB;
+    border-radius: 10px;
+    margin-top: 15px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.btnForm:hover{
+    color: #fff;
+}
+
